@@ -1,0 +1,118 @@
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #header{
+    margin:30px auto;
+    width:50%;
+    padding:20px;
+    color:rgb(251, 255, 0);
+    background-color: rgb(22, 170, 196);
+    border: 2px solid;
+    border-radius: 20px;
+  }
+
+  form{
+    width: 70%;
+    margin:5px;
+  }
+
+  .in{
+    width: 70%;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+
+  .add{
+    background-color: yellow;
+    color:rgb(22, 170, 196);
+    border: 2px solid gold;
+    border-radius: 20px;
+  }
+
+  #content{
+    margin:auto;
+    padding:15px;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #new-task {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #dedede;
+    border: black px;
+    width: 70%;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid gold;
+    color: #fff;
+    cursor: pointer;
+  }
+
+ #btn_cancel {
+    border: 2px solid black;
+    background-color: #ff2f00;
+  }
+
+  #btn_cancel:hover {
+    background: #000000;
+    color:rgb(255, 255, 255);
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  li.completed {
+    color: #aaa;
+  }
+
+
+  span {
+    color: #ffffff;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    background-color: red;
+    border:1px black solid;
+    border-radius:50%;
+    margin-left: auto;
+  }
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+}
+
+table td, table th, table tr{
+    border:none;
+    width:33%;
+    height: 30px;
+    padding:1px;
+  }
+  table tr{
+    border-bottom: 1px solid;
+  }
+
+  table th{
+    background-color:rgb(210, 194, 194);
+    font-size: 19px;
+  }
