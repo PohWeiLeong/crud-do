@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+	<style>
+		body {
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 2em;
+		}
+
+		.board {
+			display: inline-block;
+		}
+
+		.board button {
+			font-size: 3em;
+			background-color: #eee;
+			cursor: pointer;
+            width: 150px;
+            height:150px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Tic-Tac-Toe</h1>
+ 
+	<div class="board">
+        <table>
+            <tr> 
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+           
+            <tr> 
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+
+            <tr> 
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+
+        </table>
+		
+	</div>
+
+	<script>
+
+        let flag = 1;
+
+		const buttons = document.querySelectorAll('.board button');
+
+		buttons.forEach((button) => {
+			button.addEventListener('click', () => {
+				if (flag === 1) {
+					button.textContent = 'X';
+                    button.disabled = true;
+                    flag = 0;
+					
+				} else {
+					button.textContent = 'O';
+                    button.disabled = true;
+                    flag = 1;
+				} 
+
+			});
+		});
+	</script>
+</body>
+</html>
